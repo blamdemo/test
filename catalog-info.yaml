@@ -1,13 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: wayback-archive
-  description: Archive of the wayback machine
-  annotations:
-    backstage.io/kubernetes-id: test
+  name: "asd"
 spec:
   type: service
-  lifecycle: production
-  owner: team-a
-  providesApis:
-    - wayback-archive
+  owner: user:guest
+  lifecycle: experimental
